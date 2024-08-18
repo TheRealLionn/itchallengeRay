@@ -1,0 +1,813 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!--
+    - primary meta tags
+  -->
+  <title>IT CHALLENGE</title>
+  <meta name="title" content="">
+
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="images/logo ok OK.png" type="image">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Forum&display=swap" rel="stylesheet">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - preload images
+  -->
+  <link rel="preload" as="image" href="images/IT3.jpg">
+  <link rel="preload" as="image" href="images/it2.jpg">
+  <link rel="preload" as="image" href="images/it.jpg">
+
+</head>
+
+<body id="top">
+
+  <!--
+    - #PRELOADER
+  -->
+
+  <div class="preload" data-preaload>
+    <a href="#" class="logo">
+      <img src="./images/logo ok OK.png" width="160" height="50" alt="Grilli - Home">
+    </a>
+    <div class="circle"></div>
+    <p class="text">IT CHALLENGE</p>
+  </div>
+
+
+
+
+
+  <!--
+    - #TOP BAR
+  -->
+
+  <div class="topbar">
+    <div class="container">
+
+      <address class="topbar-item">
+        <div class="icon">
+          <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">
+          UPL SCIENCES INFORMATIQUES
+        </span>
+      </address>
+
+      <div class="separator"></div>
+
+      <div class="topbar-item item-2">
+        <div class="icon">
+          <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+        </div>
+      </div>
+
+      <a href="tel:+243999804055" class="topbar-item link">
+        <div class="icon">
+          <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span"> +243 99 980 4055</span>
+      </a>
+
+      <div class="separator"></div>
+
+      <a href="mailto:info@upl-univ.ac" class="topbar-item link">
+        <div class="icon">
+          <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">  info@upl-univ.ac</span>
+      </a>
+
+    </div>
+  </div>
+
+
+
+
+
+  <!--
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="./images/logo ok OK.png" width="160" height="50" alt="Grilli - Home">
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <button class="close-btn" aria-label="close menu" data-nav-toggler>
+          <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+        </button>
+
+        <a href="#" class="logo">
+          <img src="images/logo ok OK.png" width="160" height="50" alt="Grilli - Home">
+        </a>
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="#home" class="navbar-link hover-underline active">
+              <div class="separator"></div>
+
+              <span class="span">Home</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#EVENT" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">Blog</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#about" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">About Us</span>
+            </a>
+          </li>
+
+
+          <li class="navbar-item">
+            <a href="#contact" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">Contact</span>
+            </a>
+          </li>
+
+        </ul>
+
+        <div class="text-center">
+          <p class="headline-1 navbar-title">Visit Us</p>
+
+          <address class="body-4">
+            UPL, SCIENCES INFORMATIQUES, <br>
+            2179 Av 30 Juin coin kimbangu ,C/Lubumbashi
+          </address>
+
+          <p class="body-4 navbar-text"></p>
+
+          <a href="mailto:upl.univ.ac" class="body-4 sidebar-link">upl.univ.ac</a>
+
+          <div class="separator"></div>
+
+        </div>
+
+      </nav>
+
+      <a href="#inscription" class="btn btn-secondary">inscrivez-vous
+
+      </a>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <span class="line line-1"></span>
+        <span class="line line-2"></span>
+        <span class="line line-3"></span>
+      </button>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!--
+        - #HERO
+      -->
+
+      <section class="hero text-center" aria-label="home" id="home">
+
+        <ul class="hero-slider" data-hero-slider>
+
+          <li class="slider-item active" data-hero-slider-item>
+
+            <div class="slider-bg">
+              <img src="./images/it.jpg" width="1880" height="950" alt="" class="img-cover">
+            </div>
+
+            <p class="label-2 section-subtitle slider-reveal">DEFI ET TECHNOLOGI</p>
+
+            <h1 class="display-1 hero-title slider-reveal">
+              Relevez <br>
+              le défi informatique
+            </h1>
+
+            <a href="#inscription" class="btn btn-primary slider-reveal">
+              <span class="text text-1">inscrivez-vous</span>
+
+              <span class="text text-2" aria-hidden="true">inscrivez-vous</span>
+            </a>
+
+          </li>
+
+          <li class="slider-item" data-hero-slider-item>
+
+            <div class="slider-bg">
+              <img src="./images/IT3.jpg" width="1880" height="950" alt="" class="img-cover">
+            </div>
+
+            <p class="label-2 section-subtitle slider-reveal">Relevez le défi informatique</p>
+
+            <h1 class="display-1 hero-title slider-reveal">
+              Partager vos idées<br>
+              pour faire avancer la science
+            </h1>
+
+            <a href="#inscription" class="btn btn-primary slider-reveal">
+              <span class="text text-1">inscrivez-vous</span>
+
+              <span class="text text-2" aria-hidden="true">inscrivez-vous</span>
+            </a>
+
+          </li>
+
+          <li class="slider-item" data-hero-slider-item>
+
+            <div class="slider-bg">
+              <img src="./images/it2.jpg" width="1880" height="950" alt="" class="img-cover">
+            </div>
+
+            <p class="label-2 section-subtitle slider-reveal"></p>
+
+            <h1 class="display-1 hero-title slider-reveal">
+              Alors n'attendez plus,   <br>
+
+            </h1>
+
+            <p class="body-2 hero-text slider-reveal">
+              inscrivez-vous dès maintenant au IT CHALLENGE et faites partie de l'aventure !
+            </p>
+
+            <a href="#inscription" class="btn btn-primary slider-reveal">
+              <span class="text text-1">inscrivez-vous</span>
+
+              <span class="text text-2" aria-hidden="true">inscrivez-vous</span>
+            </a>
+
+          </li>
+
+        </ul>
+
+        <button class="slider-btn prev" aria-label="slide to previous" data-prev-btn>
+          <ion-icon name="chevron-back"></ion-icon>
+        </button>
+
+        <button class="slider-btn next" aria-label="slide to next" data-next-btn>
+          <ion-icon name="chevron-forward"></ion-icon>
+        </button>
+
+        <a href="#" class="hero-btn has-after">
+          <img src="./images/LOGO UPL.png" width="48" height="48" alt="booking icon">
+
+          <span class="label-2 text-center span">UPL</span>
+        </a>
+
+      </section>
+
+
+
+
+
+      <!-- 
+        - #DOMAINES
+      -->
+
+      <section class="section service bg-black-10 text-center" aria-label="service">
+        <div class="container">
+
+          <p class="section-subtitle label-2">CHALLENGE</p>
+          <ul class="grid-list">
+
+            <li>
+              <div class="service-card">
+
+                <a href="#" class="has-before hover:shine">
+                  <figure class="card-banner img-holder" style="--width: 285; --height: 336;">
+                    <img src="./images/PROG.avif" width="285" height="336" loading="lazy" alt="Breakfast"
+                      class="img-cover">
+                  </figure>
+                </a>
+
+                <div class="card-content">
+
+                  <h3 class="title-4 card-title">
+                    <a href="#">PROGRAMMATION & DEV</a>
+                  </h3>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <a href="#" class="has-before hover:shine">
+                  <figure class="card-banner img-holder" style="--width: 285; --height: 336;">
+                    <img src="./images/IOT.jpg" width="285" height="336" loading="lazy" alt="Appetizers"
+                      class="img-cover">
+                  </figure>
+                </a>
+
+                <div class="card-content">
+
+                  <h3 class="title-4 card-title">
+                    <a href="#">RESEAUX & IOT</a>
+                  </h3>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <a href="#" class="has-before hover:shine">
+                  <figure class="card-banner img-holder" style="--width: 285; --height: 336;">
+                    <img src="./images/IA.avif" width="285" height="336" loading="lazy" alt="Drinks"
+                      class="img-cover">
+                  </figure>
+                </a>
+
+                <div class="card-content">
+
+                  <h3 class="title-4 card-title">
+                    <a href="#">IA & AUTRES</a>
+                  </h3>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <img src="./images/LOGO UPL.png" width="246" height="412" loading="lazy" alt="shape"
+            class="shape shape-1 move-anim">
+          <img src="./images/LOGO UPL.png" width="343" height="345" loading="lazy" alt="shape"
+            class="shape shape-2 move-anim">
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about text-center" aria-labelledby="about-label" id="about">
+        <div class="container">
+
+          <div class="about-content">
+
+            <p class="label-2 section-subtitle" id="about-label">About</p>
+
+
+            <p class="section-text">
+            
+              Le IT CHALLENGE est ouvert à tous les niveaux et à toutes les disciplines. Que vous soyez débutant ou expert, que vous aimiez la programmation, le web
+              l'intelligence artificielle, ou autre chose, vous trouverez forcément un sujet qui vous intéresse et qui vous motive. Le IT CHALLENGE est une occasion unique
+               de mettre en pratique vos connaissances, de développer vos compétences, de travailler en équipe, de relever des défis, et de vous amuser.C'est aussi une
+               opportunité de montrer votre talent, de partager vos idées, de rencontrer des personnes, et de faire avancer la science.  Le meilleur projet remporte
+               le IT CHALLENGE et gagne des récompenses. <br>
+ 
+
+            </p>
+
+            <div class="contact-label"></div>
+
+
+          </div>
+
+          <figure class="about-banner">
+
+            <img src="./images/IT4.jpg" width="570" height="570" loading="lazy" alt="about banner"
+              class="w-100" data-parallax-item data-parallax-speed="1">
+
+            <div class="abs-img abs-img-1 has-before" data-parallax-item data-parallax-speed="1.75">
+              <img src="./images/logo ok OK.png" width="285" height="285" loading="lazy" alt=""
+                class="w-100">
+            </div>
+
+            <div class="abs-img abs-img-2 has-before">
+              <img src="./images/order.png" width="133" height="134" loading="lazy" alt="">
+            </div>
+
+            
+          </figure>
+
+          <img src="./assets/images/shape-3.png" width="197" height="194" loading="lazy" alt="" class="shape">
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #NEWS
+      -->
+
+      <section class="special-dish text-center" aria-labelledby="dish-label">
+
+        <div class="special-dish-banner">
+          <img src="images/IT1.jpg" width="940" height="900" loading="lazy" alt="special dish"
+            class="img-cover">
+        </div>
+
+        <div class="special-dish-content bg-black-10">
+          <div class="container">
+
+            <img src="./assets/images/badge-1.png" width="28" height="41" loading="lazy" alt="badge" class="abs-img">
+
+            <p class="section-subtitle label-2">News</p>
+
+            <h2 class="headline-1 section-title">UPL 2023 </h2>
+
+            <p class="section-text">
+              Cérémonie solennelle de remise des prix de l'edition 2022 et du lancement de l'édition 2024
+            </p>
+
+            <div class="wrapper">
+            </div>
+
+          </div>
+        </div>
+
+        <img src="./assets/images/shape-4.png" width="179" height="359" loading="lazy" alt="" class="shape shape-1">
+
+        <img src="./assets/images/shape-9.png" width="351" height="462" loading="lazy" alt="" class="shape shape-2">
+
+      </section>
+
+      <!-- 
+        - #TEST
+      -->
+
+      <section class="section testi text-center has-bg-image"
+        style="background-image: url('./images/I1.jpg" aria-label="testimonials")>
+        <div class="container" id="inscription">
+
+          <div class="quote">”</div>
+
+          <p class="">
+            Alors n'attendez plus, inscrivez-vous dès maintenant au IT CHALLENGE et faites partie de l'aventure 
+          </p>
+
+          <div class="wrapper">
+            <div class="separator"></div>
+            <div class="separator"></div>
+            <div class="separator"></div>
+          </div>
+
+          <div class="profile">
+          
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #INSCRIPTION
+      -->
+
+      <section class="reservation">
+        <div class="container">
+
+          <div class="form reservation-form bg-black-10">
+
+            <form action="" class="form-left">
+
+              <h2 class="headline-1 text-center">inscrivez-vous</h2>
+
+              <p class="form-text text-center">
+              UPL <a href="tel:+243999804055" class="link"></a>
+
+                info@upl-univ.ac
+
+              </p>
+
+              <div class="input-wrapper">
+                <input type="text" name="name1" placeholder="Nom 1" autocomplete="off" class="input-field">
+                <input type="tel" name="Matricule" placeholder="Matricule" autocomplete="off" class="input-field">
+                <input type="tel" name="Pr_Filiere" placeholder="exemple: Bac 2  genie logiciel" autocomplete="off" class="input-field">
+                <P></P>
+                <input type="text" name="name2" placeholder="Nom 2" autocomplete="off" class="input-field">
+               
+                <input type="tel" name="Matricule" placeholder="Matricule" autocomplete="off" class="input-field">
+                <input type="tel" name="Pr_Filiere" placeholder="exemple: Bac 2  genie logiciel" autocomplete="off" class="input-field">
+                <p></p>
+                <input type="text" name="name2" placeholder="Nom 3" autocomplete="off" class="input-field">
+
+                <input type="tel" name="Matricule" placeholder="Matricule" autocomplete="off" class="input-field">
+                <input type="tel" name="Pr_Filiere" placeholder="exemple: Bac 2  genie logiciel" autocomplete="off" class="input-field">
+                <p></p>
+                <input type="text" name="Sujet" placeholder="Votre Sujet" autocomplete="off" class="input-field">
+              </div>
+
+              <button type="submit" class="btn btn-secondary">
+                <span class="text text-1">inscrivez-vous</span>
+
+                <span class="text text-2" aria-hidden="true">Soumettre</span>
+              </button>
+
+            </form>
+
+            <div class="form-right text-center" style="background-image: url('./assets/images/form-pattern.png')">
+
+              <h2 class="headline-1 text-center">Contact Us</h2>
+
+              <p class="contact-label"></p>
+
+              <a href="tel:+243999804055" class="body-1 contact-number hover-underline">+243 99 980 4055</a>
+
+              <div class="separator"></div>
+
+              <p class="contact-label">Localisation</p>
+
+              <address class="body-4">
+                2179, Av. 30 Juin Coin Kimbangu,
+                +243 99 980 4055 <br>
+                C/Lubumbashi, Haut-Katanga, RDC.
+              </address>
+
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #FEATURES
+      -->
+
+      <section class="section features text-center" aria-label="features">
+        <div class="container">
+
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #EVENT
+      -->
+
+      <section class="section event bg-black-10" aria-label="event">
+        <div class="container" id="EVENT">
+
+          <p class="section-subtitle label-2 text-center">Recent</p>
+
+          <h2 class="section-title headline-1 text-center">Evenements</h2>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="event-card has-before hover:shine">
+
+                <div class="card-banner img-holder" style="--width: 350; --height: 450;">
+                  <img src="./images/C.jpg" width="350" height="450" loading="lazy"
+                    alt="Flavour so good you’ll try to eat with your eyes." class="img-cover">
+
+                  <time class="publish-date label-2" datetime="2022-09-15">15/09/2022</time>
+                </div>
+
+                <div class="card-content">
+                  <p class="card-subtitle label-2 text-center">IT CHALLENGE 2022</p>
+
+                  <h3 class="card-title title-2 text-center">
+                    OUVERTURE
+                  </h3>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="event-card has-before hover:shine">
+
+                <div class="card-banner img-holder" style="--width: 350; --height: 450;">
+                  <img src="./images/C2.jpg" width="350" height="450" loading="lazy"
+                    alt="Flavour so good you’ll try to eat with your eyes." class="img-cover">
+
+                  <time class="publish-date label-2" datetime="2022-09-08">08/09/2022</time>
+                </div>
+
+                <div class="card-content">
+                  <p class="card-subtitle label-2 text-center">IT CHALLENGE 2022</p>
+
+                  <h3 class="card-title title-2 text-center">
+                   CHALLENGE
+                  </h3>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="event-card has-before hover:shine">
+
+                <div class="card-banner img-holder" style="--width: 350; --height: 450;">
+                  <img src="./images/F.jpg" width="350" height="450" loading="lazy"
+                    alt="Flavour so good you’ll try to eat with your eyes." class="img-cover">
+
+                  <time class="publish-date label-2" datetime="2022-09-03">03/09/2022</time>
+                </div>
+
+                <div class="card-content">
+                  <p class="card-subtitle label-2 text-center">IT CHALLENGE 2022</p>
+
+                  <h3 class="card-title title-2 text-center">
+                    FINAL
+                  </h3>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <a href="#" class="btn btn-primary">
+            <span class="text text-1">View Our Blog</span>
+
+            <span class="text text-2" aria-hidden="true">View Our Blog</span>
+          </a>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer section has-bg-image text-center"
+    style="background-image: url('./assets/images/footer-bg.jpg')" >
+    <div class="container" >
+
+      <div class="footer-top grid-list" id="contact">
+
+        <div class="footer-brand has-before has-after">
+
+          <a href="#" class="logo">
+            <img src="./images/logo ok OK.png" width="160" height="50" loading="lazy" alt="grilli home">
+          </a>
+
+          <address class="body-4">
+            2179, Av. 30 Juin Coin Kimbangu, C/Lubumbashi, Haut-Katanga, RDC.
+           
+          </address>
+
+          <a href="mailto: info@upl-univ.ac" class="body-4 contact-link"> info@upl-univ.ac</a>
+
+          <a href="tel: +243999804055" class="body-4 contact-link"> +243 99 980 4055 
+           
+            </a>
+
+      
+          <div class="wrapper">
+            <div class="separator"></div>
+            <div class="separator"></div>
+            <div class="separator"></div>
+          </div>
+
+          <p class="title-1">Cordiale Bienvenue à tous</p>
+
+          
+        
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Home</a>
+          </li>
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Menus</a>
+          </li>
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">About Us</a>
+          </li>
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Contact</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Facebook</a>
+          </li>
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Instagram</a>
+          </li>
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Gmail</a>
+          </li>
+
+        </ul>
+
+      </div>
+
+      <div class="footer-bottom">
+
+        <p class="copyright">
+          &copy; 2023 UPL IT-CHALLENGE. All Rights Reserved | Create by <a href=""
+            target="_blank" class="link">Marchal web</a>
+        </p>
+
+      </div>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn active" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
